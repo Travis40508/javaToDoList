@@ -1,5 +1,8 @@
 package toDoListClean;
 
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -43,5 +46,14 @@ public class Personals {
             }
 
         }
+    }
+    public static void write() throws IOException{
+        String fileName = "personals.txt";
+        PrintWriter outFile = new PrintWriter(new FileWriter(fileName));
+        outFile.print(list);
+        outFile.close();
+    }
+    public static void read() throws IOException {
+
     }
 }

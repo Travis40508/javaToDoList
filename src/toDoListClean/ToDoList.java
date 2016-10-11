@@ -1,4 +1,5 @@
 package toDoListClean;
+import java.io.IOException;
 import java.util.Scanner;
 
 /**
@@ -57,5 +58,17 @@ public class ToDoList {
 
     public static void help() {
         System.out.println("To-Do Lists are Important! Choose to List your items, add them, or remove them! Higher priority items are listed first in the list!");
+    }
+
+    public static void writer() throws IOException{
+        Groceries.write();
+        Personals.write();
+        Chores.write();
+    }
+
+    public static void reader() throws IOException{
+        Groceries.read();
+        Personals.read();
+        Chores.read();
     }
 }

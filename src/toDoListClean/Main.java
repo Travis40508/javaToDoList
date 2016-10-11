@@ -1,4 +1,5 @@
 package toDoListClean;
+import java.io.IOException;
 import java.util.Scanner;
 import java.util.ArrayList;
 
@@ -6,7 +7,7 @@ import java.util.ArrayList;
  * Created by rodneytressler on 10/11/16.
  */
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException{
         ToDoList list = new ToDoList();
         Scanner scanner = new Scanner(System.in);
         while(true) {
@@ -33,10 +34,10 @@ public class Main {
         }
         if(response1.equals("5")) {
             System.out.println("Come Back Again!");
+            ToDoList.writer();
             break;
         }
-
-
+//        ToDoList.reader();
         }
     }
 }

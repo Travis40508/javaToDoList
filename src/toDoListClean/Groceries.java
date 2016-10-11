@@ -1,5 +1,9 @@
 package toDoListClean;
 
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -7,8 +11,10 @@ import java.util.Scanner;
  * Created by rodneytressler on 10/11/16.
  */
 public class Groceries {
+    public static ArrayList<String> newList = new ArrayList<>();
     public static ArrayList<String> list = new ArrayList<>();
     public static Scanner scanner = new Scanner(System.in);
+    public static String fileName = "groceries.txt";
 
     public static void addGroceries() {
         while (true) {
@@ -46,5 +52,17 @@ public class Groceries {
             }
 
         }
+    }
+    public static void write() throws IOException{
+        PrintWriter outFile = new PrintWriter(new FileWriter(fileName));
+        outFile.print(list);
+        outFile.close();
+    }
+    public static void read() throws IOException {
+        Scanner inFile = new Scanner(new FileReader(fileName));
+        while (inFile.hasNext()){
+            list.add(inFile.next());
+        }
+        inFile.close();
     }
 }
