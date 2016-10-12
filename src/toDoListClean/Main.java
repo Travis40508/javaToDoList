@@ -10,6 +10,12 @@ public class Main {
     public static void main(String[] args) throws IOException{
         ToDoList list = new ToDoList();
         Scanner scanner = new Scanner(System.in);
+        Groceries.write();
+        Personals.write();
+        Chores.write();
+        Groceries.read();
+        Personals.read();
+        Chores.read();
         while(true) {
         System.out.println("Please Select an Option: " + "\n" +
                            "1. Display To-Do List" + "\n" +
@@ -34,10 +40,14 @@ public class Main {
         }
         if(response1.equals("5")) {
             System.out.println("Come Back Again!");
-            ToDoList.writer();
+            Groceries.grocFinal();
+            Groceries.outClose();
+            Personals.persFinal();
+            Personals.outClose();
+            Chores.choresFinal();
+            Chores.outClose();
             break;
         }
-//        ToDoList.reader();
         }
     }
 }

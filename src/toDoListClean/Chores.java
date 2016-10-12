@@ -1,5 +1,6 @@
 package toDoListClean;
 
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,8 +10,11 @@ import java.util.ArrayList;
  * Created by rodneytressler on 10/11/16.
  */
 public class Chores {
+    public static String fileName = "chores.txt";
     public static ArrayList<String> list = new ArrayList<>();
     public static Scanner scanner = new Scanner(System.in);
+    public static PrintWriter outFile;
+    public static String chor;
     public static void addChores() {
         while(true) {
             System.out.println("Which Item Would You Like to Add to Chores?");
@@ -47,12 +51,23 @@ public class Chores {
         }
     }
     public static void write() throws IOException{
-        String fileName = "chores.txt";
-        PrintWriter outFile = new PrintWriter(new FileWriter(fileName));
-        outFile.print(list);
-        outFile.close();
+        PrintWriter outFile = new PrintWriter(new FileWriter("chores.txt", true));
     }
-    public static void read() throws IOException{
+    public static void read() throws IOException {
+        Scanner scanner = new Scanner(new FileReader("chorList.txt"));
+        while(scanner.hasNextLine()) {
+            chor = (scanner.nextLine());
+            list.add(chor);
+        }
+    }
+    public static void choresFinal() throws IOException{
+        outFile = new PrintWriter(new FileWriter("chorList.txt"));
+        for (int i = 0; i < list.size(); ++i) {
+            outFile.println(list.get(i));
 
+        }
+    }
+    public static void outClose() {
+        outFile.close();
     }
 }

@@ -1,9 +1,6 @@
 package toDoListClean;
 
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -11,11 +8,10 @@ import java.util.Scanner;
  * Created by rodneytressler on 10/11/16.
  */
 public class Groceries {
-    public static ArrayList<String> newList = new ArrayList<>();
+    public static String groc;
     public static ArrayList<String> list = new ArrayList<>();
     public static Scanner scanner = new Scanner(System.in);
-    public static String fileName = "groceries.txt";
-
+    public static PrintWriter outFile;
     public static void addGroceries() {
         while (true) {
             System.out.println("Which Grocery Item Would You Like to Add?");
@@ -54,15 +50,23 @@ public class Groceries {
         }
     }
     public static void write() throws IOException{
-        PrintWriter outFile = new PrintWriter(new FileWriter(fileName));
-        outFile.print(list);
-        outFile.close();
+        PrintWriter outFile = new PrintWriter(new FileWriter("groceries.txt", true));
     }
     public static void read() throws IOException {
-        Scanner inFile = new Scanner(new FileReader(fileName));
-        while (inFile.hasNext()){
-            list.add(inFile.next());
+        Scanner scanner = new Scanner(new FileReader("grocList.txt"));
+        while(scanner.hasNextLine()) {
+            groc = (scanner.nextLine());
+            list.add(groc);
         }
-        inFile.close();
+    }
+    public static void grocFinal() throws IOException{
+        outFile = new PrintWriter(new FileWriter("grocList.txt"));
+        for (int i = 0; i < list.size(); ++i) {
+            outFile.println(list.get(i));
+
+        }
+    }
+    public static void outClose() {
+        outFile.close();
     }
 }
