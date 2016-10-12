@@ -71,4 +71,13 @@ public class ToDoList {
         Personals.read();
         Chores.read();
     }
+    public static void closer() throws IOException {
+        Groceries.grocFinal();
+        Groceries.outClose();
+        Personals.persFinal();
+        Personals.outClose();
+        Chores.choresFinal();
+        Chores.outClose();
+    }
+
 }
