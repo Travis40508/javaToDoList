@@ -36,10 +36,9 @@ public class Personals {
     }
 
     public static void listPersonals() {
-
-        System.out.println("Personals: ");
+        System.out.println("Personals:");
         for (String item : list) {
-            System.out.println(item + "\n");
+            System.out.println(item);
         }
     }
 

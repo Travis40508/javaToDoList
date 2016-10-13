@@ -32,10 +32,9 @@ public class Groceries {
     }
 
     public static void listGroceries() {
-
-        System.out.println("Groceries: ");
+        System.out.println("Groceries:");
         for (String item : list) {
-            System.out.println(item + "\n");
+            System.out.println(item);
         }
     }
 

@@ -34,10 +34,9 @@ public class Chores {
         }
     }
     public static void listChores() {
-
-        System.out.println("Chores: ");
+        System.out.println("Chores:");
         for (String item : list) {
-            System.out.println(item + "\n");
+            System.out.println(item);
         }
     }
     public static void removeChores() {
