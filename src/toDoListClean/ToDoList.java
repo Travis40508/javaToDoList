@@ -57,7 +57,10 @@ public class ToDoList {
     }
 
     public static void help() {
-        System.out.println("To-Do Lists are Important! Choose to List your items, add them, or remove them! Higher priority items are listed first in the list!");
+        System.out.println("To-Do Lists are Important!" + "\n" +
+                           "Choose to List your items, add them, or remove them!" + "\n" +
+                           "Higher priority items are listed first in the list!" + "\n" +
+                           "Use Number Indicators to Navigate throughout the app!");
     }
 
     public static void writer() throws IOException{
