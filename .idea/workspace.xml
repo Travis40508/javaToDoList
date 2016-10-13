@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4ce4e6e-9fa0-4073-a18d-1739be60d0a8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaToDoListClean/toDoListClean/Chores.class" afterPath="$PROJECT_DIR$/out/production/javaToDoListClean/toDoListClean/Chores.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaToDoListClean/toDoListClean/Groceries.class" afterPath="$PROJECT_DIR$/out/production/javaToDoListClean/toDoListClean/Groceries.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaToDoListClean/toDoListClean/Personals.class" afterPath="$PROJECT_DIR$/out/production/javaToDoListClean/toDoListClean/Personals.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/javaToDoListClean/toDoListClean/ToDoList.class" afterPath="$PROJECT_DIR$/out/production/javaToDoListClean/toDoListClean/ToDoList.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/toDoListClean/ToDoList.java" afterPath="$PROJECT_DIR$/src/toDoListClean/ToDoList.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chorList.txt" afterPath="$PROJECT_DIR$/chorList.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/grocList.txt" afterPath="$PROJECT_DIR$/grocList.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/persList.txt" afterPath="$PROJECT_DIR$/persList.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/toDoListClean/Chores.java" afterPath="$PROJECT_DIR$/src/toDoListClean/Chores.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/toDoListClean/Groceries.java" afterPath="$PROJECT_DIR$/src/toDoListClean/Groceries.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/toDoListClean/Personals.java" afterPath="$PROJECT_DIR$/src/toDoListClean/Personals.java" />
     </list>
     <ignored path="javaToDoListClean.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +48,8 @@
       <file leaf-file-name="Groceries.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/toDoListClean/Groceries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="870">
-              <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+            <state relative-caret-position="300">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,8 +60,8 @@
       <file leaf-file-name="Personals.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/toDoListClean/Personals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="900">
-              <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
+            <state relative-caret-position="311">
+              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,21 +69,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chores.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Chores.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/toDoListClean/Chores.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
-              <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
+            <state relative-caret-position="416">
+              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2477#2478#0" expanded="true" />
-                <element signature="e#2508#2509#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ToDoList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ToDoList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/toDoListClean/ToDoList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="345">
@@ -134,11 +141,11 @@
         <option value="$PROJECT_DIR$/groc.txt" />
         <option value="$PROJECT_DIR$/chor.txt" />
         <option value="$PROJECT_DIR$/pers.txt" />
+        <option value="$PROJECT_DIR$/src/toDoListClean/Main.java" />
+        <option value="$PROJECT_DIR$/src/toDoListClean/ToDoList.java" />
         <option value="$PROJECT_DIR$/src/toDoListClean/Groceries.java" />
         <option value="$PROJECT_DIR$/src/toDoListClean/Personals.java" />
         <option value="$PROJECT_DIR$/src/toDoListClean/Chores.java" />
-        <option value="$PROJECT_DIR$/src/toDoListClean/Main.java" />
-        <option value="$PROJECT_DIR$/src/toDoListClean/ToDoList.java" />
       </list>
     </option>
   </component>
@@ -171,7 +178,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -212,6 +218,7 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -602,8 +609,6 @@
           <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
-            <element signature="e#2508#2509#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -670,8 +675,6 @@
           <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
-            <element signature="e#2508#2509#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -738,8 +741,6 @@
           <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
-            <element signature="e#2508#2509#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -806,8 +807,6 @@
           <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
-            <element signature="e#2508#2509#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -874,8 +873,6 @@
           <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
-            <element signature="e#2508#2509#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -976,32 +973,10 @@
     <entry file="file://$PROJECT_DIR$/groc.txt" />
     <entry file="file://$PROJECT_DIR$/chor.txt" />
     <entry file="file://$PROJECT_DIR$/pers.txt" />
-    <entry file="file://$PROJECT_DIR$/src/toDoListClean/Chores.java">
+    <entry file="file://$PROJECT_DIR$/src/toDoListClean/ToDoList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="63" column="58" selection-start-line="63" selection-start-column="58" selection-end-line="63" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2477#2478#0" expanded="true" />
-            <element signature="e#2508#2509#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/toDoListClean/Personals.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="67" column="58" selection-start-line="67" selection-start-column="58" selection-end-line="67" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/toDoListClean/Groceries.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="870">
-          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+        <state relative-caret-position="345">
+          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1018,10 +993,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/toDoListClean/ToDoList.java">
+    <entry file="file://$PROJECT_DIR$/src/toDoListClean/Groceries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
+        <state relative-caret-position="300">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/toDoListClean/Personals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/toDoListClean/Chores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

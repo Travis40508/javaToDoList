@@ -32,7 +32,11 @@ public class Groceries {
     }
 
     public static void listGroceries() {
-        System.out.println("Groceries: " + list);
+
+        System.out.println("Groceries: ");
+        for (String item : list) {
+            System.out.println(item + "\n");
+        }
     }
 
     public static void removeGroceries() {
